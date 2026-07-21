@@ -13,6 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 echo "doing build stuff.."
+                echo "nice its working!"
                 '''
             }
         }
@@ -21,6 +22,7 @@ pipeline {
                 echo "Testing.."
                 sh '''
                 echo "doing test stuff.."
+                echo "test completed successfully!"
                 '''
             }
         }
@@ -29,6 +31,7 @@ pipeline {
                 echo 'Deliver....'
                 sh '''
                 echo "doing delivery stuff.."
+                echo "delivery completed successfully!"
                 '''
             }
         }
